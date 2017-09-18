@@ -1,0 +1,97 @@
+    <h1>Page 1</h1> 
+
+    <form action = "form2.html">
+        enter email: <input type= "email" name=" email1" required> <br>
+        enter age : <input type="submit"> 
+        enter company url : <input type="url" name="url1" required> <br> 
+        <input type="submit">
+    </form> 
+
+
+    New Form <br> 
+    <form action="form2.html" method="post"> 
+        enter your name : <input type="text" name = "name"><br> 
+    </form> 
+
+    <form>
+        Enter hobby : <input type = "text"
+        autocomplete="on" list="hobbles" > <br> 
+        <input type="submit"> 
+
+    <datalist id = "hobbles">
+        <option value ="Chatting"/> 
+        <option value ="coloring"/> 
+        <option value ="reading"/> 
+        <option value ="roaming"/> 
+        <option value ="sleeping"/>
+
+    </datalist>
+
+<h1> Output element, example-2 </h1> 
+
+ <form> 
+        Choose range : <input type="range" = "r1"
+        oninput="op.value=this.value"> <br> 
+        <output name="op"></op> 
+        </form> 
+<h1> Multiple submit buttons </h1> 
+
+<form> 
+    <input type="submit" value="Goto page2" formaction="a2.html"> 
+    <input type="submit" value="Goto page3" formaction="a3.html">
+</form>  
+
+<h1>Autofocus example </h1>
+    <form action="a2.html">
+        Enter name 1 : <input type="text" name="t1"><br>
+        Enter name 2 : <input type="text" name="t2" autofocus> <br> 
+        <input type="submit"> 
+       
+    </form> 
+
+    <h1>Input element outside form </h1>
+
+    <form action="a2.html" name="form1" method="get">
+            Enter email : <input type="email" name="email1"> <br>
+        <input type="submit"> <br> 
+       
+    </form>
+    
+    Enter name : <input type="text" name="t1" form="form1"><br>
+ 
+    <h1> Multiple files upload </h1> 
+    <input type="file" multiple> 
+
+    <form action="a2.html"> 
+        <input type="image" src="cs.jpg"> 
+    </form> 
+
+    <h1> audio files upload </h1> 
+    <h1> audio tag </h1> 
+    <audio src="xyz.mp3" controls autoplay> </audio>
+    <video controls autoplay loops
+    src="love_is.mp4" > 
+    </video>  
+    <video controls autoplay loops
+    src="love_is.mp4" > 
+    </video>  
+    <video controls autoplay loops
+    src="love_is.mp4" > 
+    </video>  
+
+
+<h1> Inline </h1> 
+
+Mr.Ravi got <mark> selected in cooking </mark> section <br> 
+He will be available at <time> 9:45 pm </time> <br> 
+
+<br> 
+
+select range to see meter<input type="range" name="r1" oninput="meter1.value = this.value"><br> 
+
+
+<h2>Meter tag </h2>
+<meter value="5" max="10" id="meter1"> </meter> 
+
+<h2> Progress Tag </h2> 
+<progress > </progress> 
